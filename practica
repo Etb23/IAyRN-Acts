@@ -1,0 +1,244 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMudoNMH+KmN3XcNuBZAZz1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Etb23/IAyRN-Acts/blob/main/practica\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Dj4sJ8SCAIka"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = \"hello!\"\n",
+        "print(len(a))\n",
+        "\n",
+        "x = 5\n",
+        "y = 10\n",
+        "print(x + y)\n",
+        "not (5>4)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vh3juQ-tAMJv",
+        "outputId": "6c875ef2-a669-453f-c243-c2e5dd712742"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n",
+            "15\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=[]\n"
+      ],
+      "metadata": {
+        "id": "Tv5WBVgdDYJf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "X=[]\n",
+        "X.append(input(\"enter a number\"))\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kQdudTzfD3be",
+        "outputId": "96eb05ea-5cb8-4ad7-ea0b-51f161561e03"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number0\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "X=[]"
+      ],
+      "metadata": {
+        "id": "s6Jaz7u9EJrQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Sección nueva"
+      ],
+      "metadata": {
+        "id": "wCYMoTnbcIRU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 33\n",
+        "b = 66\n",
+        "\n",
+        "if b > a:\n",
+        "  print(\"b is greater than a\")\n",
+        "elif a == b:\n",
+        "    print(\"a and b are equal\")\n",
+        "else:\n",
+        "    print(\"a is greater than b\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W9riNbZCcsJq",
+        "outputId": "b7ee65de-54f4-4641-f473-fec32150e20e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b is greater than a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def es_palindromo(texto):\n",
+        "    # Eliminar espacios y convertir a minúsculas\n",
+        "    texto_limpio = ''.join(texto.split()).lower()\n",
+        "\n",
+        "    # Comparar el texto limpio con su reverso\n",
+        "    return texto_limpio == texto_limpio[::-1]\n",
+        "\n",
+        "# Ejemplos de uso\n",
+        "palabra = \"Anita lava la tina\"\n",
+        "if es_palindromo(palabra):\n",
+        "    print(f'\"{palabra}\" es un palíndromo.')\n",
+        "else:\n",
+        "    print(f'\"{palabra}\" no es un palíndromo.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hKra8ll_D771",
+        "outputId": "13ca7418-2a7e-4980-adca-788a5965ce85"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\"Anita lava la tina\" es un palíndromo.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "TAREA 1\n"
+      ],
+      "metadata": {
+        "id": "JaIPPl9xcI--"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nombre = input(\"ingrese su nombre\")\n",
+        "print(\"hola\", nombre)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lzqJuHDrcJ1y",
+        "outputId": "9e49229f-1d2c-47f8-f0e4-463f79a84b01"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese su nombreENique\n",
+            "hola ENique\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "C6CXLOgacg_M"
+      }
+    }
+  ]
+}
